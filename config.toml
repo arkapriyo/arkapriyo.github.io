@@ -1,0 +1,5 @@
+baseURL = "https://Arka-2004.github.io/Arka-2004/"
+languageCode = "en-us"
+title = "My Hugo Site"
+theme = "ananke"
+

@@ -1,27 +1,18 @@
 ---
 title: Concise Curriculum Vitae
 ---
-You can download the detailed one [here](https://github.com/paulpseudoman/paulpseudoman.github.io/raw/main/MY_CV.pdf)
+You can download the detailed one [here](https://github.com/arkapriyo/arkapriyo.github.io/raw/main/MY_CV.pdf)
 
 ### Education
-> **2024 - Present:** Indian Statistical Institute.
->> Successfully completed first year of studies.
+> **2023 - Present:** Indian Statistical Institute, Bangalore.
+>> Successfully completed second year of studies.
 
-> **2017 - 2021:** Kalyani Government Engineering College
->> Bachelor of Technology in Information Technology
+> **2020 - 2022:** Delhi Public School Ruby Park, Kolkata.
+>> Passed AISSCE with 84%.
 
-### Experience
-> **2021 - 2024:** Data Scientist at *Tata Consultancy Services*.
-
-### Achievements and Certifications
-- Secured AIR 7 at ISI Entrance Examination.
-- **Dataiku Core Designer**, Dataiku.
-- **Technical Excellence Certificate**, Tata Consultancy Services.
+> **2009 - 2020:** St. Mary School, Malda
+>> Passed ICSE with 97.2%.
 
 ### Skills
-- **Languages:** I have strong reading, writing and speaking competencies for *English*, *Bengali*. Besides, I know *Hindi*.
-- **Coding:** C, Python
-- **Technical Skills:** Machine Learning, Statistics for Data Science, Statistical Quality control, Operation Research, Dataiku, Statistical Analysis, Power BI(Basic), Project Management, Microsoft Excel.
-- **Libraries:** Pandas, NumPy, Matplotlib, SciPy, Scikit-learn.
-- **Soft Skills:** Communication, Training, Problem-Solving, Presentation, Customer-Focus, Time Management.
-- **Other Activities:** I was one of the the **Event Organizers** of **CHAOS 2025**, annual fest of **ISI BANGALORE**.
+- **Languages:** I have strong reading, writing and speaking competencies for *English*, *Bengali*, *Hindi*.
+- **Coding:** C, Python, Java, LaTeX, Octave, R.

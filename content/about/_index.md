@@ -1,12 +1,10 @@
 ---
 title: About Me
 ---
-Hola Amigos!! Sourish here !!
+Hola Amigos!! Arkapriyo here !!
 
-I'm an accomplished data scientist with a strong foundation in algorithmic thinking, machine learning, and combinatorial optimization. I earned my Bachelor of Technology in Information Technology from West Bengal University of Technology in 2021 and am currently pursuing a Master of Science at the Indian Statistical Institute (ISI), with graduation expected in 2026. From 2021 to 2024, I worked at Tata Consultancy Services (TCS) as a Data Scientist, where I focused on developing advanced machine learning models.
+My name is Arkapriyo Hore, and I am someone who thrives on learning, building, and contributing to meaningful work. I approach every challenge with curiosity and commitment, believing that growth comes from combining knowledge with consistent effort.
 
-Beyond my professional journey, I have a deep passion for creative expression and cultural interests. I enjoy recitation and writing poetry, drawing inspiration from the rhythm and depth of language. I'm also a keen enthusiast of card games, which I value for their strategic and analytical dimensions — a perfect complement to my analytical mindset.
+Professionally, I see myself as both analytical and adaptable. I enjoy problem-solving, working with structured methods, and paying attention to detail, but I also value creativity and flexibility when approaching new situations. This balance helps me remain effective in dynamic environments where innovation and precision go hand in hand.
 
-Football is another significant part of my life. I’m an avid follower of the sport, captivated by its global spirit and the artistry in every match. I passionately support Real Madrid and the Brazil national team, admiring their rich histories, dynamic styles of play, and the legendary players who have shaped the beautiful game.
-
-Music holds a special place in my heart as well. I have a deep appreciation for “Gan” — a genre that encompasses Bengali band songs, traditional folk tunes, and popular band music from Bangladesh. This vibrant musical heritage connects me to my cultural roots and continually broadens my creative perspective.
+At the core of my professional and personal philosophy are three principles: integrity, continuous learning, and respect. I strive to approach every opportunity with honesty and dedication, while remaining open to new perspectives that expand my understanding. For me, success is not only about achieving personal milestones but also about contributing positively to the people, teams, and communities I engage with.

@@ -1,4 +1,8 @@
 <head>
+    {{ if .Params.mathjax }}
+  {{ partial "mathjax.html" . }}
+{{ end }}
+
   <meta charset="utf-8" />
   {{ with .Site.Language.Params.htmlCode | default .Site.LanguageCode }}
   <meta http-equiv="content-language" content="{{ . }}" />

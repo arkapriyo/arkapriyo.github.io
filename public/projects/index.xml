@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Sourish Sarkar</title>
+    <title>Projects on Arkapriyo Hore</title>
     <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Projects on Sourish Sarkar</description>
+    <description>Recent content in Projects on Arkapriyo Hore</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>sourish.sarkar13@gmail.com (Sourish Sarkar)</managingEditor>
-    <webMaster>sourish.sarkar13@gmail.com (Sourish Sarkar)</webMaster>
-    <copyright>© 2025 Sourish Sarkar</copyright>
+    <managingEditor>arkapriyoisibang@gmail.com (Arkapriyo Hore)</managingEditor>
+    <webMaster>arkapriyoisibang@gmail.com (Arkapriyo Hore)</webMaster>
+    <copyright>© 2025 Arkapriyo Hore</copyright>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>

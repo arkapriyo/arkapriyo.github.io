@@ -33,12 +33,12 @@
 [[main]]
   name = "Blogs"
   pageRef = "blog"
-  weight = 5
+  weight = 6
 
 [[main]]
   name = "Activities"
   pageRef = "activities"
-  weight = 6
+  weight = 5
 
 
 # -- Footer Menu --

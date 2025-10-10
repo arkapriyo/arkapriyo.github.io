@@ -52,11 +52,11 @@ If $d\mid2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\nmid}m$ then we have $\varphi(
 ### Proof:
 Writing d in its prime factorisation form ,writing k in its prime factorisation form and keeping in mind that $d\mid2m \hspace{0.1 cm} and \hspace{0.1 cm}d{\nmid}m$ it is quite straight forward to see.
 
-Now since by \textbf{Claim2} we have for any $\delta >0$ we have infinitely many $m\in\mathbb{N}$ for which $\frac{\varphi(2m)}{2m}<\delta$.
+Now since by **Claim2** we have for any $\delta >0$ we have infinitely many $m\in\mathbb{N}$ for which $\frac{\varphi(2m)}{2m}<\delta$.
 Setting $\delta=\frac{\epsilon_o}{2}$ we have infinitely many $m\in\mathbb{N}$  such that
 \begin{equation*}
-    $\frac{\varphi(2m)}{2m}<\frac{\epsilon_o}{2}$
-$\Rightarrow \varphi(2m)<m\epsilon_o$
+    \frac{\varphi(2m)}{2m}<\frac{\epsilon_o}{2}
+\Rightarrow \varphi(2m)<m\epsilon_o
 \end{equation*}
 \begin{equation}
     \Rightarrow \varphi(d)<\varphi(2m)<m\epsilon_o
@@ -66,4 +66,4 @@ Now for large enough $x \in \mathbb{N}$ we have $\Phi_d(x)\approx x^{\varphi(d)}
 $\Rightarrow \Phi_d(r^k)\approx r^{k\varphi(d)}$
 so we have $p\le\Phi_d(r^k)\approx r^{k\varphi(d)}\le r^{k\varphi(2m)}<r^{km\epsilon_o}=n^{k\epsilon_o}=n^{\epsilon}$.
 
-Now since from \textbf{Eqn 1} we get infinitely many such m's for which $\varphi(d)<m\epsilon_o$ and since $n=r^m$ we get infinitely many such $n \in\mathbb{N}$ and for all of them we have $p<n^{\epsilon}$  and hence this completes our proof.
+Now since from **Eqn 1** we get infinitely many such m's for which $\varphi(d)<m\epsilon_o$ and since $n=r^m$ we get infinitely many such $n \in\mathbb{N}$ and for all of them we have $p<n^{\epsilon}$  and hence this completes our proof.

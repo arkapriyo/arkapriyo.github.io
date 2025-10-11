@@ -40,6 +40,10 @@
   pageRef = "activities"
   weight = 5
 
+  [[main]]
+name= "Resources"
+pageRef= "resources"
+weight= 7
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

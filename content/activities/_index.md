@@ -9,7 +9,7 @@ title: Activities
 - I was one of the organizers of **Saraswati Puja and Cultural Programme, 2025**.
 
 ### 2024
--  I participated in ***Madhava Nurture Camp*** at CMI in Summer of 2024.
+-  
 -  I was one of the organizers of **Saraswati Puja, 2024**.
 
 ### 2023

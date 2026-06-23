@@ -1,5 +1,6 @@
 ---
 title: "Bound on The Largest Prime Factor of Certain Numbers"
+Date: 2025-02-16
 weight: 100
 draft: false
 showAuthor: true

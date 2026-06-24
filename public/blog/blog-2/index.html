@@ -2,6 +2,25 @@
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
+  
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)'], ['$', '$']],
+    displayMath: [['$$','$$'], ['\\[','\\]']],
+    tags: 'ams'
+  },
+  options: {
+    
+    processHtmlClass: 'mathjax-process',
+    skipHtmlTags: ['script','noscript','style','textarea','pre']
+  }
+};
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
+
+
 
   <meta charset="utf-8" />
   
@@ -10,8 +29,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title> &middot; Arkapriyo Hore</title>
-  <meta name="title" content=" &middot; Arkapriyo Hore" />
+  <title>Bound on The Largest Prime Factor of Certain Numbers &middot; Arkapriyo Hore</title>
+  <meta name="title" content="Bound on The Largest Prime Factor of Certain Numbers &middot; Arkapriyo Hore" />
   
   <meta name="description" content="My personal website" />
   
@@ -70,14 +89,14 @@
   
   <meta property="og:url" content="http://localhost:1313/blog/blog-2/">
 	<meta property="og:site_name" content="Arkapriyo Hore">
-	<meta property="og:title" content="Arkapriyo Hore">
+	<meta property="og:title" content="Bound on The Largest Prime Factor of Certain Numbers">
 	<meta property="og:description" content="My personal website">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="website">
 
   
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Arkapriyo Hore">
+	<meta name="twitter:title" content="Bound on The Largest Prime Factor of Certain Numbers">
 	<meta name="twitter:description" content="My personal website">
 
     
@@ -530,7 +549,7 @@
 
  <header>
   
-  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral"></h1>
+  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Bound on The Largest Prime Factor of Certain Numbers</h1>
   <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
     
 
@@ -577,10 +596,264 @@
   <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
   
   </header>
-  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+  <section class="mt-12 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+    
+    <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 lg:sticky lg:top-[140px]">
+        <details open id="TOCView" class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#question">Question</a></li>
+        <li><a href="#solution">Solution</a>
+          <ul>
+            <li><a href="#claim-1">Claim 1:</a></li>
+            <li><a href="#proof">Proof:</a></li>
+            <li><a href="#claim-2">Claim 2:</a></li>
+            <li><a href="#proof-1">Proof:</a></li>
+            <li><a href="#fact">Fact:</a></li>
+          </ul>
+        </li>
+        <li><a href="#claim-3">Claim 3:</a></li>
+        <li><a href="#proof-2">Proof:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#question">Question</a></li>
+        <li><a href="#solution">Solution</a>
+          <ul>
+            <li><a href="#claim-1">Claim 1:</a></li>
+            <li><a href="#proof">Proof:</a></li>
+            <li><a href="#claim-2">Claim 2:</a></li>
+            <li><a href="#proof-1">Proof:</a></li>
+            <li><a href="#fact">Fact:</a></li>
+          </ul>
+        </li>
+        <li><a href="#claim-3">Claim 3:</a></li>
+        <li><a href="#proof-2">Proof:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active');
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
+
+</script>
+
+      </div>
+    </div>
     
     <div class="min-w-0 min-h-0 max-w-prose">
       
+<h3 class="relative group">Question 
+    <div id="question" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#question" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Let $k$ be a positive integer, and let $\epsilon$ be a positive real number. Prove that there are infinitely many positive integers $n$, such that the largest prime factor of $n^k + 1$ is less than $n^\epsilon$</p>
+
+<h3 class="relative group">Solution 
+    <div id="solution" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#solution" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>In the whole solution k and $\epsilon$ is fixed.</p>
+
+<h4 class="relative group">Claim 1: 
+    <div id="claim-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#claim-1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>The set of prime divisors of {$n^k+1$ :$n\in\mathbb{N}$} is an infinite set.</p>
+
+<h4 class="relative group">Proof: 
+    <div id="proof" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#proof" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>For the sake of contradiction say $\exists$ only finitely many of them say${p_1,p_2,\dots,p_r}$.Now set $n=p_1p_2{\dots}p_r$. Now we see none of $p_i$,where $i\in{1,2,\dots,r}$ divide $n^k+1$. Which is a contradiction.</p>
+<p>Hence, the set of largest prime $p$ such that $p\mid(n^k+1)$ where $n\in{1,2,3,\dots}$ is infinite. If not say there are finitely many of them, say for each $n\in \mathbb{N}$ $n^k+1$ has a largest prime factor among the set${p_1,p_2,\dots,p_k}$ but now again setting $n=p_1p_2{\dots}p_k$ we get a contradiction.</p>
+
+<h4 class="relative group">Claim 2: 
+    <div id="claim-2" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#claim-2" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>$\forall\hspace{0.2 cm} \delta &gt; 0 \hspace{0.2 cm}\exists$ infinitely many $m \in \mathbb{N}$
+such that  $\frac{\varphi(2m)}{2m}&lt;\delta$ ,where $\varphi(n)$ is the euler totient function.</p>
+
+<h4 class="relative group">Proof: 
+    <div id="proof-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#proof-1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Let the odd primes be \(p_1 < p_2 < \cdots\) and set \(m=p_1p_2\cdots p_k\). Then
+\begin{equation*}
+\lim_{k\to\infty} \frac{\varphi(2m)}{2m}=\lim_{k\to\infty}\prod_{p\mid2m}{\left(1-\frac{1}{p}\right)}&lt;e^{\lim_{k\to\infty}\left(-\sum_{p\mid2m} \left(\frac{1}{p} \right)\right)} &lt; \delta
+\end{equation*}
+Since $\sum_{p\mid2m} \frac{1}{p}$ diverges to $\infty$, $e^{\left(-\sum_{p\mid2m} \left(\frac{1}{p} \right)\right)}$ converges to $ 0$. And hence our previous line is justified, which completes our proof.</p>
+
+<h4 class="relative group">Fact: 
+    <div id="fact" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#fact" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<ol>
+<li>
+\[x^n-1=\prod_{d mid n}\Phi_d(x)\]
+Where $\Phi_d(x)$ is the d-th cyclotomic polynomial.</li>
+<li>deg($\Phi_d(x)$) is $\varphi(d)$.</li>
+</ol>
+<p>So we have
+\begin{equation*}
+x^{2n}-1=\prod_{d\mid2n}\Phi_d(x)
+\end{equation*}
+\begin{equation*}
+\Rightarrow (x^n-1)(x^n+1)=\prod_{d\mid2n}\Phi_d(x)
+\end{equation*}
+\begin{equation*}
+\Rightarrow (x^n+1)=\prod_{{d\mid2n}{\hspace{0.1cm}d\nmid n}}\Phi_d(x).
+\end{equation*}</p>
+<p>Now set n=$r^m$ for some $r \in\mathbb{N}$
+$\Rightarrow n^k=r^{mk}$
+Take $\epsilon_o=\frac{\epsilon}{k}$.
+If $p\mid(n^k+1)$ then $p$ should divide some $\Phi_d(r^k)$ where $d\mid2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\nmid}m$.(Here we would refer $p$ as the largest prime factor of $n^k+1$).</p>
+
+<h3 class="relative group">Claim 3: 
+    <div id="claim-3" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#claim-3" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>If $d\mid2m \hspace{0.1 cm}and \hspace{0.1 cm} d{\nmid}m$ then we have $\varphi(d)&lt;\varphi(2m)$.</p>
+
+<h3 class="relative group">Proof: 
+    <div id="proof-2" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#proof-2" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Writing d in its prime factorisation form ,writing k in its prime factorisation form and keeping in mind that $d\mid2m \hspace{0.1 cm} and \hspace{0.1 cm}d{\nmid}m$ it is quite straight forward to see.</p>
+<p>Now since by <strong>Claim2</strong> we have for any $\delta &gt;0$ we have infinitely many $m\in\mathbb{N}$ for which $\frac{\varphi(2m)}{2m}&lt;\delta$.
+Setting $\delta=\frac{\epsilon_o}{2}$ we have infinitely many $m\in\mathbb{N}$  such that
+\begin{equation*}
+\frac{\varphi(2m)}{2m}&lt;\frac{\epsilon_o}{2}
+\Rightarrow \varphi(2m)&lt;m\epsilon_o
+\end{equation*}
+\begin{equation}
+\Rightarrow \varphi(d)&lt;\varphi(2m)&lt;m\epsilon_o
+\end{equation}
+Since $p\mid\Phi_d(r^k)$ so we should have $p\le\Phi_d(r^k)$
+Now for large enough $x \in \mathbb{N}$ we have $\Phi_d(x)\approx x^{\varphi(d)}$
+$\Rightarrow \Phi_d(r^k)\approx r^{k\varphi(d)}$
+so we have $p\le\Phi_d(r^k)\approx r^{k\varphi(d)}\le r^{k\varphi(2m)}&lt;r^{km\epsilon_o}=n^{k\epsilon_o}=n^{\epsilon}$.</p>
+<p>Now since from <strong>Eqn 1</strong> we get infinitely many such m&rsquo;s for which $\varphi(d)&lt;m\epsilon_o$ and since $n=r^m$ we get infinitely many such $n \in\mathbb{N}$ and for all of them we have $p&lt;n^{\epsilon}$  and hence this completes our proof.</p>
+
     </div>
 
 
@@ -598,7 +871,13 @@
     
 
   
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   

@@ -1,0 +1,42 @@
+<script>
+(function () {
+  function setupSearchShortcut() {
+    const searchButton = document.getElementById("search-button");
+
+    if (!searchButton) {
+      console.log("Search button not found");
+      return;
+    }
+
+    // Add the keyboard shortcut label beside the search icon
+    const shortcut = document.createElement("span");
+    shortcut.textContent =
+      navigator.platform.toUpperCase().includes("MAC") ? "⌘ K" : "Ctrl K";
+
+    shortcut.style.fontSize = "12px";
+    shortcut.style.marginLeft = "6px";
+    shortcut.style.padding = "2px 6px";
+    shortcut.style.border = "1px solid currentColor";
+    shortcut.style.borderRadius = "5px";
+    shortcut.style.opacity = "0.65";
+    shortcut.style.whiteSpace = "nowrap";
+
+    searchButton.appendChild(shortcut);
+
+    // Ctrl+K on Windows/Linux and Cmd+K on Mac
+    document.addEventListener("keydown", function (event) {
+      if ((event.ctrlKey || event.metaKey) &&
+          event.key.toLowerCase() === "k") {
+        event.preventDefault();
+        searchButton.click();
+      }
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", setupSearchShortcut);
+  } else {
+    setupSearchShortcut();
+  }
+})();
+</script>

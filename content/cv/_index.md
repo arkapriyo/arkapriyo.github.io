@@ -1,5 +1,5 @@
 ---
-title: Concise Curriculum Vitae
+title: Curriculum Vitae
 ---
 You can download the detailed one [here](https://github.com/arkapriyo/arkapriyo.github.io/raw/main/MY_CV.pdf)
 

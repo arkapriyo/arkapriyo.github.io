@@ -1,21 +1,65 @@
 ---
-title: Curriculum Vitae
+title: "Curriculum Vitae"
 ---
-You can download the detailed one [here](https://github.com/arkapriyo/arkapriyo.github.io/raw/main/MY_CV.pdf)
 
-### Education
-> **2023 - Present:** Indian Statistical Institute, Bangalore.
->> Successfully completed second year of studies.
+## Education
 
-> **2020 - 2022:** Delhi Public School Ruby Park, Kolkata.
->> Passed AISSCE with 84%.
+- **University of Münster**
+  - M.Sc. Mathematics
+  - 2026 – Present
 
-> **2009 - 2020:** St. Mary School, Malda
->> Passed ICSE with 97.2%.
+- **Indian Statistical Institute, Bangalore**
+  - B.Math.
+  - 2023 – 2026
 
-### Talks
-- I presented a talk in **Math Club, ISI Bangalore** titled [***Cyclotomy: The Story of How Gauss Narrowly Missed Becoming a Philologist***](https://mathclubisib.github.io/activities/expository_talks/student_talks/talks_2025/#ep2510-cyclotomy-the-story-of-how-gauss-narrowly-missed-becoming-a-philologist).
+## Research & Reading Projects
 
-### Skills
-- **Languages:** I have strong reading, writing and speaking competencies for *English*, *Bengali*, *Hindi*.
-- **Coding:** C, Python, Java, LaTeX, Octave, R.
+- **Galois Cohomology and Brauer–Severi Varieties**
+  - *Advisor:* Prof. Debanjana Kundu, University of Regina
+  - *Timeline:* June 2025 – July 2025
+  - *Main references:*
+    - Jean-Pierre Serre, *Local Fields*
+    - Philippe Gille and Tamás Szamuely, *Central Simple Algebras and Galois Cohomology*
+
+- **Local Class Field Theory — Visiting Students' Research Programme**
+  - *Advisor:* Prof. Sandeep Varma, School of Mathematics, TIFR Mumbai
+  - *Timeline:* May 2025 – June 2025
+  - *Main reference:*
+    - Jean-Pierre Serre, *Local Fields*
+  - *Report:* *A Journey through Local Class Field Theory*
+
+- **Sheaf Theory**
+  - *Advisor:* Prof. Suresh Nayak, ISI Bangalore
+  - *Timeline:* November 2024 – December 2024
+  - *Main reference:*
+    - Ravi Vakil, *The Rising Sea: Foundations of Algebraic Geometry*
+
+- **Arithmetic Theory of Binary Quadratic Forms**
+  - *Advisor:* Prof. Satadal Ganguly, ISI Kolkata
+  - *Timeline:* May 2024 – July 2024
+  - *Main reference:*
+    - Duncan A. Buell, *Binary Quadratic Forms*
+
+- **Introduction to Number Fields and Number Rings**
+  - *Advisor:* Prof. Ramdin Mawia, ISI Bangalore
+  - *Timeline:* February 2024 – April 2024
+  - *Main reference:*
+    - Daniel A. Marcus, *Number Fields*
+
+## Talks & Presentations
+
+- **An Exposition of Monsky's Theorem**
+  - *Venue:* Limit Camp, ISI Bangalore
+  - *Date:* May 2026
+
+- **Cyclotomy: The Story of How Gauss Narrowly Missed Becoming a Philologist**
+  - *Venue:* Math Club, ISI Bangalore
+  - *Date:* August 2025
+
+- **Relation between Class Groups of Binary Quadratic Forms and Ideal Class Groups in Quadratic Fields**
+  - *Presentation associated with the project on Arithmetic Theory of Binary Quadratic Forms*
+  - ISI Kolkata, 2024
+
+## We might have met at…
+
+**Madhava Nurture Camp**, Chennai Mathematical Institute **(8–13 July 2024)**

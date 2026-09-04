@@ -19,10 +19,11 @@ title = "Arkapriyo Hore"
   email = "arkapriyoisibang@gmail.com"
    image = "profile.jpeg"
    imageQuality = 96
-  headline = "Pursuing B.Math at Indian Statistical Institute"
+  headline = ""
  #  bio = "A little bit about you 1234567"
    links = [
-     { email = "arkapriyoisibang@gmail.com" },
+  { email = "mailto:arkapriyoisibang@gmail.com" },
+
 #    { instagram = "https://www.instagram.com/sourishsar/" },
 #      { linkedin = "https://linkedin.com/in/sourish-sarkar" },
 #     { orcid = "https://orcid.org/userid" },

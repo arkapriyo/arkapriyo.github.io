@@ -22,7 +22,7 @@ title = "Arkapriyo Hore"
   headline = ""
  #  bio = "A little bit about you 1234567"
    links = [
-  { email = "mailto:arkapriyoisibang@gmail.com" },
+    {  email = "mailto:arkapriyoisibang@gmail.com"  },
 
 #    { instagram = "https://www.instagram.com/sourishsar/" },
 #      { linkedin = "https://linkedin.com/in/sourish-sarkar" },

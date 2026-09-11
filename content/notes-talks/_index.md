@@ -4,15 +4,14 @@ title: "Notes & Talks"
 
 This page collects some notes, project reports, and talks that I have written or presented over time. I will continue adding material here as it becomes ready.
 
-- **A Journey through Local Class Field Theory**
-  [PDF](/pdfs/local-class-field-theory.pdf)
+- **The Ax-Grothendieck Theorem**  
+  *Coming soon*
 
-- **Relation between Class Groups of Binary Quadratic Forms and Ideal Class Groups in Quadratic Fields** 
-  [PDF](/pdfs/binary-quadratic-forms.pdf)
-
-- **Cyclotomy: The Story of How Gauss Narrowly Missed Becoming a Philologist** 
+- **Cyclotomy: The Story of How Gauss Narrowly Missed Becoming a Philologist**  
   [PDF](/pdfs/cyclotomy.pdf)
 
+- **A Journey through Local Class Field Theory**  
+  [PDF](/pdfs/local-class-field-theory.pdf)
 
-- **The Ax–Grothendieck Theorem**  
-  *Coming soon*
+- **Relation between Class Groups of Binary Quadratic Forms and Ideal Class Groups in Quadratic Fields**  
+  [PDF](/pdfs/binary-quadratic-forms.pdf)

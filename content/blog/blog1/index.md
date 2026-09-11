@@ -1,13 +1,14 @@
 ---
-title: "Why group theorists keep encountering the number Two"
-Date: 2026-06-25
+title: "Bound on The Largest Prime Factor of Certain Numbers"
+Date: 2025-02-16
 weight: 100
 draft: false
 showAuthor: true
 mathjax: true
+showComments: true
 ---
-
-One quickly learns that abelian groups are the "nice" groups—the ones in which multiplication can be performed in any order.Let $k$ be a positive integer, and let $\epsilon$ be a positive real number. Prove that there are infinitely many positive integers $n$, such that the largest prime factor of $n^k + 1$ is less than $n^\epsilon$
+### Question
+Let $k$ be a positive integer, and let $\epsilon$ be a positive real number. Prove that there are infinitely many positive integers $n$, such that the largest prime factor of $n^k + 1$ is less than $n^\epsilon$
 ### Solution
 In the whole solution k and $\epsilon$ is fixed.
 #### Claim 1:
